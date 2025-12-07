@@ -137,7 +137,7 @@ capillarity-supercell-sizing/
 
 ## License
 
-> This code is released under the MIT License. See `LICENSE` for details.
+This code is released under the MIT License. See `LICENSE` for details.
 
 ---
 
@@ -145,4 +145,12 @@ capillarity-supercell-sizing/
 
 If you use this code in academic work, please cite:
 
-> C. Tantardini *et al.*, “Capillarity in Stationary Random Granular Media: Distribution-Aware Screening and Quantitative Supercell Sizing”, submitted to *Physical Review E* (2025).
+```bibtex
+@article{TantardiniAlonsoMarroquin2025capillarity,
+  author  = {Tantardini, Christian and Alonso-Marroquin, Fernando},
+  title   = {Capillarity in Stationary Random Granular Media:
+             Distribution-Aware Screening and Quantitative Supercell Sizing},
+  journal = {submitted to Physical Review E},
+  year    = {2025},
+  page    = {xxx}
+}
