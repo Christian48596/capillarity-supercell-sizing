@@ -126,11 +126,10 @@ These files allow you to remake or further post-process each figure.
 
 ```text
 capillarity-supercell-sizing/
-├─ capillarity_rve_demo_mpi.py      # Main MPI script
+├─ capillarity_pressure.py      # Main MPI script
 ├─ README.md                        # This file
-├─ requirements.txt                 # Optional: list Python deps
 ├─ FIGS/                            # Created automatically; stores PNG figures
-└─ data/                            # (Optional) extra processed data or examples
+└─ *.csv                            # Data got from the script
 ```
 
 ---
