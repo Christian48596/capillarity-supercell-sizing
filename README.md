@@ -1,10 +1,5 @@
 # capillarity-supercell-sizing
 
-**Short description (≤350 characters):**  
-Python/MPI code for capillarity in stationary random granular media. Generates Boolean-sphere microstructures, computes a screened capillarity observable, and produces convergence, spectral, self-interaction, and timing figures for quantitative supercell sizing.
-
----
-
 ## Overview
 
 This repository contains a reproducible Python/MPI workflow that supports the paper:
@@ -141,8 +136,6 @@ capillarity-supercell-sizing/
 ---
 
 ## License
-
-Choose a license appropriate for your project, e.g. MIT, BSD, or APS-compatible. Example:
 
 > This code is released under the MIT License. See `LICENSE` for details.
 
