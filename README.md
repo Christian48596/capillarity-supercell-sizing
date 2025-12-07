@@ -51,31 +51,31 @@ The core script is:
 It implements four experiments:
 
 1. **Experiment 1 – Variance vs. volume (Fig. 1)**  
-   - 10 box sizes \(L\).  
-   - Computes \(\beta_{\mathrm{app}}(Y_L)\) for many realizations.  
-   - Plots \(\mathrm{Var}[\beta_{\mathrm{app}}(Y_L)]\) vs.\ \(1/V\) with error bars.  
-   - Fits a power law \(\mathrm{Var}[\beta_{\mathrm{app}}] \propto (1/V)^{\alpha}\) in log–log coordinates and overlays a reference slope-1 line.
+   - 10 box sizes $L$.  
+   - Computes $\beta_{\rm app}(Y_L)$ for many realizations.  
+   - Plots $\mathrm{Var}[\beta_{\rm app}(Y)]$ vs $1/V$ with error bars.  
+   - Fits a power law $\mathrm{Var} \sim (1/V)^\alpha$ in log–log coordinates and overlays a reference slope-1 line.
 
-2. **Experiment 2 – Spectral low-\(k\) coverage (Fig. 2)**  
+2. **Experiment 2 – Spectral low-$k$ coverage (Fig. 2)**  
    - Same 10 box sizes as in Fig. 1.  
-   - Computes the radially averaged spectral density \(\widehat{C}(k)\) of the phase indicator.  
-   - Top panel: full \(k\)-range, log–log, markers only, vertical dashed lines at \(k_{\min} = 2\pi/L\).  
-   - Bottom panel: zoom for \(k \in [10^{0}, k_{\max}]\), \(\widehat{C}(k) \in [10^{-2},10^{2}]\), same marker style.  
-   - Shows collapse of the spectra at large \(k\) for \(L \gtrsim 10\).
+   - Computes radially averaged spectral density $\widehat{C}(k)$ of the phase indicator.  
+   - Top panel: full $k$-range, log–log, markers only, vertical dashed lines at $k_{\min} = 2\pi/L$.  
+   - Bottom panel: zoom for $k \in [10^{0}, k_{\max}]$, $y \in [10^{-2},10^{2}]$, same marker style.  
+   - Shows collapse of spectra at large $k$ for $L > 10$.
 
 3. **Experiment 3 – Self-interaction and bias (Fig. 3)**  
-   - Uses a high quantile \(a_{\max} = Q_{1-\delta}(D)\) of the grain diameters.  
-   - Samples 10 values of \(L/a_{\max}\) in \([1, 5]\).  
-   - For each ratio, computes the mean and variance of \(\beta_{\mathrm{app}}(Y_L)\) with error bars.  
-   - Fits exponential models for both mean and variance vs.\ \(L/a_{\max}\) to quantify decay of self-interaction artifacts.  
+   - Uses a high quantile $a_{\max} = Q_{1-\delta}(D)$ of the grain diameters.  
+   - Samples 10 values of $L/a_{\max}$ in $[1, 5]$.  
+   - For each ratio, computes the mean and variance of $\beta_{\rm app}(Y_L)$ with error bars.  
+   - Fits exponential models for both mean and variance vs $L/a_{\max}$ to quantify decay of self-interaction artifacts.  
    - Stores representative 2D slices of the microstructure for visualization.
 
-4. **Experiment 4 – Timing / cost vs. \(L\) (Fig. 4)**  
-   - Measures wall-clock time per realization as a function of \(L\) for:
+4. **Experiment 4 – Timing / cost vs. $L$ (Fig. 4)**  
+   - Measures wall-clock time per realization as a function of $L$ for:
      - microstructure generation,  
      - spectral FFT and radial averaging,  
-     - observable evaluation (toy, via \(\phi\)).  
-   - Plots each component and the total cost vs.\ \(L\) (log-scale on the \(y\)-axis).
+     - observable evaluation (toy, via $\phi$).  
+   - Plots each component and the total cost vs $L$ (log-scale on the $y$-axis).
 
 ---
 
