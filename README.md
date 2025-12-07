@@ -4,7 +4,7 @@
 
 This repository contains a reproducible Python/MPI workflow that supports the paper:
 
-> *Capillarity in Stationary Random Granular Media: Distribution-Aware Screening and Quantitative Supercell Sizing*
+*Capillarity in Stationary Random Granular Media: Distribution-Aware Screening and Quantitative Supercell Sizing*
 
 The main driver script
 
