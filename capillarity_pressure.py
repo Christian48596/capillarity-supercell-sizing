@@ -552,7 +552,7 @@ def experiment_spectral_lowk(cfg: Config):
         ax_zoom.set_xscale("log")
         ax_zoom.set_yscale("log")
         ax_zoom.set_xlim(kmin_zoom, kmax_zoom)
-        ax_zoom.set_ylim(1e-2, 1e2)  # 10^{-2} to 10^{2}
+        ax_zoom.set_ylim(1e-2, 1e3)  # 10^{-2} to 10^{3}
         ax_zoom.set_xlabel(r"$k$")
         ax_zoom.set_ylabel(r"$\widehat{C}(k)$ (arb. units)")
 
